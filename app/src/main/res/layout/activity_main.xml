@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domestic Waste Water Disposal"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textColor="#000000"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dehradun"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID253:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID343:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pump:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Haridwar"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID754:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2_2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_2"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID430:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5_2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2_2"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pump:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6_2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3_2"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rishikesh"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID223:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2_3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_3"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID378:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5_3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2_3"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pump:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6_3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3_3"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Roorkee"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID413:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2_4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_4"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID612:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5_4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2_4"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pump:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6_4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3_4"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Lucknow"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID923:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2_5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_5"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sensor ID124:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5_5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2_5"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pump:"
+                    android:textColor="#1A237E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6_5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="0.0"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3_5"
+                    android:layout_width="141dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@android:color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="New Text"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Detail"
+                    android:layout_marginLeft="160dp"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/refresh" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
